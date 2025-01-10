@@ -1,0 +1,179 @@
+body {
+  background-color: #1e1e2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+font-size: 2rem;
+}
+
+.title-panel {
+  color: #767676;
+  font-size: 2em;
+}
+
+.sidebar-panel {
+  background-color: #2e2e3d;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.forecast-section {
+  padding: 20px;
+}
+
+.forecast-title, .highlight-title {
+  color: #767676;
+  margin-bottom: 20px;
+}
+
+.highlight-box {
+    display: inline-block;
+  background-color: #343444;
+  width: 22%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight-box h4 {
+  color: #767676;
+}
+
+.highlight-box h1, .highlight-box p {
+  color: #fff;
+}
+
+.map-container {
+  margin-top: 15px;
+  border: 2px solid #3498db; /* Blue border for emphasis */
+  border-radius: 8px;
+  overflow: hidden; /* Rounded corners apply to the map as well */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.map-container .leaflet-container {
+  border-radius: 8px;
+}
+
+
+
+.data-summary {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-left: 5px solid #3498db;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  border-radius: 5px;
+}
+
+.data-summary h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.data-summary div {
+  font-display: column;
+  font-size: 2rem;
+  background-color: #e0f7fa;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #00796b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.forecast-container {
+        background-color: #0c1c3a;
+        padding: 20px;
+        border-radius: 15px;
+        color: white;
+        font-family: Arial, sans-serif;
+        width: 90%;
+        margin: auto;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
+/* Increase font size of the calendar dates */
+.datepicker table tr td, 
+.datepicker table tr th {
+  font-size: 11px; /* Increase the font size */
+  color: #ffffff; /* White color for text */
+}
+
+/* Improve visibility of the selected date */
+.datepicker table tr td.active, 
+.datepicker table tr td.active:hover {
+  background-color: #313E53; /* Blue background for selected date */
+  color: #ffffff; /* White text color */
+}
+
+/* Change the background and text color of the calendar */
+.datepicker table {
+  background-color: #2c2f38; /* Dark background */
+  color: #ffffff; /* White text color */
+}
+
+/* Hover effect for dates */
+.datepicker table tr td:hover {
+  background-color: #444a5a; /* Light gray on hover */
+  color: #ffffff;
+}
+
+
+/* Disable dates (for any disabled days) */
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover {
+  color: #6c757d; /* Gray color for disabled dates */
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+
+/* Weather Prediction Section Styling */
+body {
+  background-color: ##F5F0DC;
+  color: #f0f0f0;
+}
+
+#predictionDate {
+  color: #000;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: ##F5F0DC;
+  color: ##2D2919;
+  padding: 10px;
+  border-bottom: 2px solid #444;
+}
+
+table td {
+  background-color: ##F5F0DC;
+  color: ##2D2919;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#accuracyPlot {
+  margin-top: 20px;
+}
